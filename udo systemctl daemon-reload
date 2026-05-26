@@ -1,0 +1,14 @@
+[0;1;38;5;185mWarning: The unit file, source configuration file or drop-ins of mysql.service changed on disk. Run 'systemctl daemon-reload' to reload units.[0m
+[0;1;32m●[0m mysql.service - MySQL Community Server
+     Loaded: loaded (]8;;file://alet-ThinkPad-L390-Yoga/usr/lib/systemd/system/mysql.service/usr/lib/systemd/system/mysql.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Mon 2026-05-25 17:13:41 EAT; 17min ago
+   Main PID: 1420 (mysqld)
+     Status: "[0;1;36mServer is operational[0m"
+      Tasks: 37 (limit: 18762)
+     Memory: 427.9M (peak: 440.7M)
+        CPU: 9.819s
+     CGroup: /system.slice/mysql.service
+             └─[0;38;5;245m1420 /usr/sbin/mysqld[0m
+
+ሜይ  25 17:13:40 alet-ThinkPad-L390-Yoga systemd[1]: Starting mysql.service - MySQL Community Server...
+ሜይ  25 17:13:41 alet-ThinkPad-L390-Yoga systemd[1]: Started mysql.service - MySQL Community Server.
